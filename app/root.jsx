@@ -1,4 +1,5 @@
 import { Links, Meta, Outlet, Scripts } from '@remix-run/react'
+import { Navbar } from './shared/Navbar'
 
 export default function App() {
     return (
@@ -10,9 +11,10 @@ export default function App() {
                 <Links />
             </head>
             <body>
+                <Navbar />
                 <h1>Hello world!</h1>
                 <Outlet />
-
+                This is the thing
                 <Scripts />
             </body>
         </html>
