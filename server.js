@@ -24,6 +24,6 @@ app.use(express.static('build/client'))
 // and your app is "just a request handler"
 app.all('*', createRequestHandler({ build }))
 
-app.listen(3000, () => {
-    console.log('App listening on http://localhost:3000')
+app.listen(4000, () => {
+    console.log('App listening on http://localhost:4000')
 })
